@@ -13,10 +13,10 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Moveit"
+        android:text="Welcome to Movit"
         android:textColor="@color/white"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/homebutton"
+        app:layout_constraintBottom_toTopOf="@+id/orderbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.718" />
 
     <Button
-        android:id="@+id/homebutton"
+        android:id="@+id/orderbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"

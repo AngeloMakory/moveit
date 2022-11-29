@@ -23,10 +23,11 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_HomeFragment_to_loginFragment)
         }
 
-//        val homeButton = view.findViewById<Button>(R.id.homebutton)
-//        homeButton.setOnClickListener {
-//            findNavController().navigate(R.id.action)
-//        }
+        val homeButton = view.findViewById<Button>(R.id.orderbutton)
+        homeButton.setOnClickListener {
+            findNavController().navigate(R.id.action_HomeFragment_to_orderFragment)
+        }
+
         return view
     }
 
