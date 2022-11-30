@@ -15,13 +15,51 @@
         android:layout_height="wrap_content"
         android:text="Login to Movit"
         android:textColor="@color/white"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/homebutton"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#25ffffff"
+        android:drawableLeft="@drawable/ic_user_24"
+        android:drawablePadding="20dp"
+        android:hint="Your Username"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#25ffffff"
+        android:drawableLeft="@drawable/ic_password_24"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/homebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
 
     <Button
         android:id="@+id/homebutton"
@@ -34,10 +72,10 @@
         android:textColor="#000AC1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.74" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
